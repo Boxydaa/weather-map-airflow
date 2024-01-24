@@ -1,18 +1,14 @@
 # Project Overview
 The project aims to build a robust data pipeline using Apache Airflow for orchestrating tasks. The pipeline involves parallel processing, utilizes S3 buckets for storage, and relies on an RDS PostgreSQL database for data persistence.
- ![image](https://github.com/Boxydaa/weather-map-airflow/assets/152782315/334b806b-a68c-4d3c-9974-c681a95e9074)
 
 # DAG Structure
- 
- 
-
-
 
 # Apache Airflow Instance: Hosted on an EC2 instance, serving as the central orchestrator for the data pipeline.
 # S3 Buckets: Used for storing and retrieving data files, facilitating seamless interaction with various tasks.
 # RDS PostgreSQL Database: Provides a reliable and scalable solution for persisting joined data.
+# IAM Roles & Policies: Implemented robust access control mechanisms to safeguard sensitive resources.
 
-
+ ![image](https://github.com/Boxydaa/weather-map-airflow/assets/152782315/334b806b-a68c-4d3c-9974-c681a95e9074)
 In conclusion, this data pipeline orchestrated by Apache Airflow on an EC2 instance demonstrates a robust and scalable solution for handling weather data. The parallel processing capabilities of Airflow, combined with the storage flexibility of S3 buckets and the data persistence offered by RDS PostgreSQL, create a comprehensive and reliable workflow.
 
 # Key highlights of the project include:
