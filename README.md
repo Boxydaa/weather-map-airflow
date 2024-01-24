@@ -4,8 +4,11 @@ The project aims to build a robust data pipeline using Apache Airflow for orches
 # DAG Structure
 
  Apache Airflow Instance: Hosted on an EC2 instance, serving as the central orchestrator for the data pipeline.
+ 
  S3 Buckets: Used for storing and retrieving data files, facilitating seamless interaction with various tasks.
+ 
  RDS PostgreSQL Database: Provides a reliable and scalable solution for persisting joined data.
+ 
  IAM Roles & Policies: Implemented robust access control mechanisms to safeguard sensitive resources.
 
  ![image](https://github.com/Boxydaa/weather-map-airflow/assets/152782315/334b806b-a68c-4d3c-9974-c681a95e9074)
